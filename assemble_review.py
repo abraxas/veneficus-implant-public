@@ -11,6 +11,8 @@
 # |                       Veneficus Mini Worm Toolkit                        |
 # |           https://github.com/abraxas/veneficus-implant-public            |
 # |                                                                          |
+# |   I did not write this kit or code. Credit: @YogSoth0. Analyzed as-is.   |
+# |                                                                          |
 # | abraxaslabs.tech                                           @abraxas_null |
 # +--------------------------------------------------------------------------+
 
