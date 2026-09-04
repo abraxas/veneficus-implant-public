@@ -1,4 +1,4 @@
-# Veneficus Mini
+# Veneficus Mini Malware - Exploit, Pivot, C2, Persistence
 
 <p align="center">
   <img src="abraxas-labs-banner.jpg" alt="Abraxas Labs — analyze · reverse · disclose" width="100%">
