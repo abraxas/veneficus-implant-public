@@ -14,7 +14,7 @@
 # | abraxaslabs.tech                                           @abraxas_null |
 # +--------------------------------------------------------------------------+
 
-Veneficus Mini - full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence
+Veneficus Mini - Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence
 ==================================================================================
 
 This directory is a documentation clone of that kit. Every module is

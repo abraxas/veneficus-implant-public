@@ -116,7 +116,7 @@ nav.toc ul { columns:2; padding-left:1.2em; }
 
 INTRO = r"""
 <p class="call"><strong>Review packet — not a blog post.</strong> Veneficus Mini is
-<strong>full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong>.
+<strong>Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong>.
 This directory is an obfuscated pseudo-code clone. Nothing here compiles or runs.
 Identifiers that would make a useful YARA rule (function names, host artifacts,
 relay paths, driver filenames, device paths, control codes, XOR keys, drop names)
@@ -127,7 +127,7 @@ exploit nicknames are not.</p>
 · <a href="https://abraxaslabs.tech">abraxaslabs.tech</a></p>
 
 <h2 id="overview">What this is</h2>
-<p>Veneficus Mini is <strong>full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong>
+<p>Veneficus Mini is <strong>Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong>
  — a Windows x64 kit sketched as a modular
 agent: host scoring, concealment, a signed-driver helper pool, harvest,
 three persistence paths, a loopback SOCKS-like relay, a blank remote-view
@@ -256,9 +256,9 @@ def build_html() -> str:
         "<!DOCTYPE html><html lang='en'><head><meta charset='utf-8'/>",
         "<meta name='viewport' content='width=device-width, initial-scale=1'/>",
         "<meta name='author' content='@abraxas_null'/>",
-        "<title>Veneficus Mini - full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</title>",
+        "<title>Veneficus Mini - Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</title>",
         f"<style>{CSS}</style></head><body>",
-        "<header class='bar'><h1>Veneficus Mini - full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</h1>",
+        "<header class='bar'><h1>Veneficus Mini - Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</h1>",
         "<div class='meta'><a href='https://abraxaslabs.tech'>@abraxas_null</a> · "
         "public technical outline · not executable · 2026-09-03</div></header><main>",
         banner_data_uri(),
@@ -294,7 +294,7 @@ def strip_pdf(path: Path) -> None:
         pass
     writer.add_metadata(
         {
-            "/Title": "Veneficus Mini - full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence",
+            "/Title": "Veneficus Mini - Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence",
             "/Author": "@abraxas_null",
             "/Subject": "Public technical outline. Not executable.",
             "/Keywords": "https://abraxaslabs.tech",

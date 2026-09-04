@@ -1,11 +1,11 @@
-# Veneficus Mini - full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence
+# Veneficus Mini - Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence
 
 <p align="center">
   <img src="abraxas-labs-banner.jpg" alt="Abraxas Labs — analyze · reverse · disclose" width="100%">
 </p>
 
 <p align="center">
-  <strong>full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong><br>
+  <strong>Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong><br>
   Public technical outline · pseudo-code only · not executable<br>
   <a href="https://abraxaslabs.tech">abraxaslabs.tech</a>
   ·
@@ -14,7 +14,7 @@
 
 ---
 
-Veneficus Mini is **full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence**.
+Veneficus Mini is **Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence**.
 
 This repository is a **documentation clone** of that Windows x64 kit - sketched as a modular agent covering the whole chain: host scoring, concealment, a signed-driver helper pool (exploit / LPE), lateral coerce plus a loopback relay (pivot), an HTTPS edge control plane (C2), and WMI / task / Run-key stay-resident (persistence), plus harvest.
 
@@ -122,7 +122,7 @@ Start at [`Veneficus_Mini/src/entry.pseudo`](Veneficus_Mini/src/entry.pseudo) an
 ## What this is not
 
 - Not a compiler input. `.pseudo` files will not build.
-- Not the private tree. Native-call, kernel hide, hidden view, and auth-coerce are stubs or dead code **in this outline**; the kit itself is full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence.
+- Not the private tree. Native-call, kernel hide, hidden view, and auth-coerce are stubs or dead code **in this outline**; the kit itself is Full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence.
 - Not a vulnerability disclosure beyond the public CVE IDs listed above.
 
 For operator-facing write-ups see [abraxaslabs.tech](https://abraxaslabs.tech).
