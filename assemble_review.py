@@ -116,7 +116,7 @@ nav.toc ul { columns:2; padding-left:1.2em; }
 
 INTRO = r"""
 <p class="call"><strong>Review packet — not a blog post.</strong> Veneficus Mini is
-<strong>full kill-chain malware 0day</strong>: Exploit, LPE, Pivot, C2, Persistence.
+<strong>full kill-chain malware 0day: Exploit, LPE, Pivot, C2, Persistence</strong>.
 This directory is an obfuscated pseudo-code clone. Nothing here compiles or runs.
 Identifiers that would make a useful YARA rule (function names, host artifacts,
 relay paths, driver filenames, device paths, control codes, XOR keys, drop names)
