@@ -14,10 +14,12 @@
 # | abraxaslabs.tech                                           @abraxas_null |
 # +--------------------------------------------------------------------------+
 
-Veneficus Mini — public technical outline
-========================================
+Veneficus Mini — full kill-chain malware 0day
+=============================================
+Exploit, Pivot, C2, Persistence
 
-This directory is a documentation clone. Every module is pseudo-code.
+This directory is a documentation clone of that kit. Every module is
+pseudo-code.
 
 It is not a buildable project. It is not a dropper. It does not contain
 real patch bytes, control-code numbers, device paths, host artifacts,

@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>Public technical outline</strong> · pseudo-code only · not executable<br>
+  <strong>Full kill-chain malware 0day</strong> · Exploit, Pivot, C2, Persistence<br>
+  Public technical outline · pseudo-code only · not executable<br>
   <a href="https://abraxaslabs.tech">abraxaslabs.tech</a>
   ·
   <a href="https://x.com/abraxas_null">@abraxas_null</a>
@@ -13,7 +14,9 @@
 
 ---
 
-This repository is a **documentation clone** of Veneficus Mini, a Windows x64 implant sketched as a modular agent: host scoring, concealment, a signed-driver helper pool, harvest, persistence, a loopback relay, and an HTTPS edge control plane.
+Veneficus Mini is **full kill-chain malware 0day**: **Exploit, Pivot, C2, Persistence**.
+
+This repository is a **documentation clone** of that Windows x64 kit — sketched as a modular agent covering the whole chain: host scoring, concealment, a signed-driver helper pool (exploit), lateral coerce plus a loopback relay (pivot), an HTTPS edge control plane (C2), and WMI / task / Run-key stay-resident (persistence), plus harvest.
 
 Every module here is **pseudo-code**. It is not a buildable project, not a dropper, and not a detector-friendly dump of a private tree.
 
@@ -28,6 +31,15 @@ Every module here is **pseudo-code**. It is not a buildable project, not a dropp
 Identifiers in this packet are aliases. A copy of these files should not compile into a YARA rule that hits a private implementation.
 
 ---
+
+## Kill chain
+
+| Stage | What it covers in this outline |
+| --- | --- |
+| **Exploit** | Dropper, signed-driver helper pool, in-process patches |
+| **Pivot** | Auth coerce / relay sketch, loopback SOCKS-like proxy |
+| **C2** | HTTPS edge relay, sealed beacons, operator job queue |
+| **Persistence** | WMI pulse, on-logon task, machine Run key |
 
 ## Intended flow
 
@@ -109,7 +121,7 @@ Start at [`Veneficus_Mini/src/entry.pseudo`](Veneficus_Mini/src/entry.pseudo) an
 ## What this is not
 
 - Not a compiler input. `.pseudo` files will not build.
-- Not a full implant. Native-call, kernel hide, hidden view, and auth-coerce are stubs or dead code.
+- Not the private tree. Native-call, kernel hide, hidden view, and auth-coerce are stubs or dead code **in this outline**; the kit itself is full kill-chain (Exploit, Pivot, C2, Persistence).
 - Not a vulnerability disclosure beyond the public CVE IDs listed above.
 
 For operator-facing write-ups see [abraxaslabs.tech](https://abraxaslabs.tech).
