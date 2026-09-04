@@ -11,6 +11,3 @@
 # |                                                                          |
 # | abraxaslabs.tech                                           @abraxas_null |
 # +--------------------------------------------------------------------------+
-
-# src/lateral/mod.pseudo
-SUBMODULES: coerce

@@ -1,4 +1,19 @@
 #!/usr/bin/env python3
+
+# +--------------------------------------------------------------------------+
+# |          _   ___ ___    _   __  __   _   ___   _      _   ___ ___        |
+# |         /_\ | _ ) _ \  /_\  \ \/ /  /_\ / __| | |    /_\ | _ ) __|       |
+# |        / _ \| _ \   / / _ \  >  <  / _ \\__ \ | |__ / _ \| _ \__ \       |
+# |       /_/ \_\___/_|_\/_/ \_\/_/\_\/_/ \_\___/ |____/_/ \_\___/___/       |
+# |                                                                          |
+# |                     analyze  /  reverse  /  disclose                     |
+# |                                                                          |
+# |                       Veneficus Mini Worm Toolkit                        |
+# |           https://github.com/abraxas/veneficus-implant-public            |
+# |                                                                          |
+# | abraxaslabs.tech                                           @abraxas_null |
+# +--------------------------------------------------------------------------+
+
 """Build REVIEW.html + REVIEW.pdf from the obfuscated pseudo-code tree."""
 from __future__ import annotations
 
